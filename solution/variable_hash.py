@@ -299,7 +299,7 @@ def _rotate_right(value, shift):
 # Example usage
 if __name__ == "__main__":
     # Allow user to choose input
-    test_input = input("Enter the input string for quantum hash: ")
+    test_input = input("Enter the input string for quantum hash: ") #first input
     result = quantum_var_hash(test_input)
     print(f"Input: {test_input}")
     print(f"Hash: {result.hex()}")
@@ -310,7 +310,7 @@ if __name__ == "__main__":
     print(f"Hashes match: {result == result2}")
     
     # Test with slightly different input
-    test_input2 = input("Enter the 2nd input string for quantum hash: ")
+    test_input2 = input("Enter the 2nd input string for quantum hash: ") #second input 
     result3 = quantum_var_hash(test_input2)
     print(f"Different input: {test_input2}")
     print(f"Hash: {result3.hex()}")
