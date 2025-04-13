@@ -52,14 +52,13 @@ The optimized implementation is **5.5x faster** than QubitCoin while providing m
 ### Requirements
 
 ```
-qiskit>=0.43.0
-qiskit-aer>=0.17.0
-numpy>=1.22.0
-matplotlib>=3.5.0
-seaborn>=0.12.0
-scipy>=1.9.0
-tabulate>=0.9.0
-tqdm>=4.65.0
+numpy
+qiskit
+qiskit-aer
+matplotlib
+tabulate
+scipy
+seaborn
 ```
 
 Install the requirements:
