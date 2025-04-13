@@ -2,7 +2,7 @@
 
 This repository contains implementations of quantum hash functions developed for the quantum cryptography challenge. Our goal was to create efficient and secure quantum hash algorithms that outperform existing implementations like QubitCoin.
 
-*read the [paper:](/paper/pdf.pdf)*
+*read the [paper here](/paper/pdf.pdf)*
 
 ## Overview
 
@@ -52,13 +52,14 @@ The optimized implementation is **5.5x faster** than QubitCoin while providing m
 ### Requirements
 
 ```
-numpy
-qiskit
-qiskit-aer
-matplotlib
-tabulate
-scipy
-seaborn
+qiskit>=0.43.0
+qiskit-aer>=0.17.0
+numpy>=1.22.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+scipy>=1.9.0
+tabulate>=0.9.0
+tqdm>=4.65.0
 ```
 
 Install the requirements:
@@ -113,3 +114,5 @@ Potential future improvements include:
 2. Improving the entropy of the variable-length hash implementation
 3. Implementing runtime adaptive behavior to optimize for different input sizes
 4. Exploring alternative entanglement patterns for better security properties 
+
+*see the [presentation here](/presentation.pdf)*
