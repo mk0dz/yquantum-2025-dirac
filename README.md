@@ -2,6 +2,8 @@
 
 This repository contains implementations of quantum hash functions developed for the quantum cryptography challenge. Our goal was to create efficient and secure quantum hash algorithms that outperform existing implementations like QubitCoin.
 
+*read the [paper:](/paper/pdf.pdf)*
+
 ## Overview
 
 We have developed several quantum hash implementations with different performance and security characteristics:
